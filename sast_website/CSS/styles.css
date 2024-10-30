@@ -71,6 +71,7 @@ footer {
     margin-top: 2rem;
 }
 
+
 /* Dark Mode Styles */
 body.dark-mode {
     background-color: #121212;
@@ -103,3 +104,4 @@ body.dark-mode footer {
     background: #222831;
     color: #e0e0e0;
 }
+

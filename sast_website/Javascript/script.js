@@ -37,3 +37,4 @@ function displayEvents() {
 
 // Call the function to display events on page load
 displayEvents();
+

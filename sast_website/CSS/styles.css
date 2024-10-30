@@ -70,3 +70,38 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
 }
+
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode header {
+    background: #222831;
+    color: #e0e0e0;
+}
+
+body.dark-mode nav a {
+    color: #e0e0e0;
+}
+
+body.dark-mode nav a:hover {
+    color: #aaa;
+}
+
+body.dark-mode #about {
+    background: #2c2c2c;
+}
+
+body.dark-mode #events-container .event-card {
+    background-color: #3a3a3a;
+    border-color: #444;
+}
+
+body.dark-mode footer {
+    background: #222831;
+    color: #e0e0e0;
+}
+

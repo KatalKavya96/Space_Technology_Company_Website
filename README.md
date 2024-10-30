@@ -1,7 +1,3 @@
-Here’s the raw text version for you to paste directly:
-
-
-
 # 🌌 SAST Website - Society for Astrophysics and Space Technology 🌌
 
 Welcome to the official repository for the **Society for Astrophysics and Space Technology (SAST)** website! This site serves as an online platform to showcase our club's mission, projects, events, and resources dedicated to the exploration and advancement of astrophysics and space technology.

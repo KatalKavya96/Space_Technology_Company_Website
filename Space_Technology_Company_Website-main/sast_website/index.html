@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAST - Society for Astrophysics and Space Technology</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/custom_loading.css">
+    <link rel="stylesheet" href="CSS/title_anim.css">
+    <link rel="stylesheet" href="CSS/achievements.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+<!-- Navigation Bar HTML -->
+<header id="navid">
+    <div class="navbar">
+        <a href="#home"><img src="Images/3 (1).png" alt="SAST Logo" class="logo" style="width:100px; margin-left: -40px; "></a>
+        <nav id="flexbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
+    </div>
+</header>
+
+
+
+<section id="about">
+    <div class="sast-card">
+        <i class="fas fa-bullseye sast-icon"></i>
+        <h3>Mission</h3>
+        <p>Advancing Understanding and Exploration in Astrophysics and Space Technology</p>
+    </div>
+    <div class="sast-card">
+        <i class="fas fa-eye sast-icon"></i>
+        <h3>Vision</h3>
+        <p>To Inspire and Nurture a Community dedicated to Space Sciences,Exploration and Innovation</p>
+    </div>
+    <div class="sast-card">
+        <i class="fas fa-handshake sast-icon"></i>
+        <h3>Values</h3>
+        <p>Innovation, Curiosity, and Collaboration in the Pursuit of Knowledge.</p>
+    </div>
+</section>
+
+<!-- Events Carousel -->
+<h2 class="space-title">Events</h2>
+<section id="events">
+    <!-- <h2 class="space-title">Events</h2> -->
+    <div id="events-container">
+        <!-- Sample Slide 1 -->
+        <div class="carousel-slide card left">
+            <img src="../sast_website/Images/TelescopeEvent.jpeg" class="carousel-background" alt="Event 1">
+            <div class="carousel-content">
+                <h3 class="carousel-title">Comet Gazing Event</h3>
+                <p class="carousel-description">"An observation session where students explored comet sightings on the A Block Terrace"</p>
+            </div>
+        </div>
+        <!-- Sample Slide 2 -->
+        <div class="carousel-slide card right">
+            <img src="../sast_website/Images/ints.jpg" class="carousel-background" alt="Event 2">
+            <div class="carousel-content">
+                <h3 class="carousel-title">Interstellar Movie Night</h3>
+                <p class="carousel-description">"A screening of the movie 'Interstellar' followed by a discussion on its scientific concepts"</p>
+            </div>
+        </div>
+        <!-- Sample Slide 3 -->
+        <div class="carousel-slide card left">
+            <img src="../sast_website/Images/rajv.jpeg" class="carousel-background" alt="Event 3">
+            <div class="carousel-content">
+                <h3 class="carousel-title">Guest Lecture: Celestial Calendar of Ancient India</h3>
+                <p class="carousel-description">"Dr. Rajkumar Vedam discussed ancient astronomical observations and precision in calculations"</p>
+            </div>
+        </div>
+        <div class="carousel-slide card right">
+            <img src="../sast_website/Images/works.jpg" class="carousel-background" alt="Event 2">
+            <div class="carousel-content">
+                <h3 class="carousel-title">Space Technology Workshop</h3>
+                <p class="carousel-description">"Hands-on workshop where participants learned about cutting-edge Space Technology and Innovations"</p>
+            </div>
+        </div>
+
+        <div class="carousel-slide card left">
+            <img src="../sast_website/Images/skyp.webp" class="carousel-background" alt="Event 3">
+            <div class="carousel-content">
+                <h3 class="carousel-title">Night Sky Photography</h3>
+                <p class="carousel-description">"A guided session on photographing the night sky, focusing on Star Trails and Constellations"</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="breaker"></div>
+
+<hr class="division">
+
+<footer id="contact">
+    <p>Contact us at sast@rishihood.edu.in | Follow us on Social Media</p>
+    <a href="https://www.linkedin.com/company/society-for-astrophysics-and-space-technology/?viewAsMember=true" target="blank"><img align="center" src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="60" /></a>
+    <a href="https://www.instagram.com/sast.rishihood/" target="blank"><img align="center" src="https://user-images.githubusercontent.com/74038190/235294013-a33e5c43-a01c-43f6-b44d-a406d8b4ab75.gif" width="60" /></a>
+</footer>
+
+
+
+
+
+
+<!-- Add this HTML snippet within the <body> of your SAST website -->
+<div class="rocket-cursor" id="rocket-cursor">
+    <img src="../sast_website/Images/sasti.png" alt="Rocket">
+</div>
+    
+
+    <!-- Loading Animation -->
+    <div id="loading-screen">
+        <div class="planet-orbit"></div> <!-- For orbiting planets -->
+        <div class="star-twinkle"></div> <!-- For twinkling stars -->
+        <div class="shooting-star"></div> <!-- For shooting star streaks -->
+        <div class="rocket"></div> <!-- For rocket launch -->
+    </div>
+    
+
+
+
+    <!-- JavaScript -->
+    <script src="Javascript/event_carousel.js"></script>
+    <script src="Javascript/Dark.js"></script>
+    <script src="Javascript/custom_loading.js"></script>
+    <script src="Javascript/gallery_carousel.js"></script>
+    <script src="Javascript/achievements.js"></script>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,544 @@
+/* Resetting basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('space.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: none;
+    
+    
+}
+
+/* Header styles */
+header {
+    background: #0b131c;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    z-index: 1000;
+    opacity: 0.95;
+    
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+/* Section styles */
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
+/* #events-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+} */
+
+/* .event-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #e9ecef;
+} */
+
+/* Footer styles */
+footer {
+    background: #0b131c;
+    color: #fff;
+    text-align: center;
+    
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('space.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+body.dark-mode header {
+    background: #0b131c;
+    color: #e0e0e0;
+}
+
+body.dark-mode nav a {
+    color: #e0e0e0;
+}
+
+body.dark-mode nav a:hover {
+    color: #aaa;
+}
+
+
+
+body.dark-mode #events-container .event-card {
+    background-color: #3a3a3a;
+    border-color: #444;
+}
+
+body.dark-mode footer {
+    background: #222831;
+    color: #e0e0e0;
+    text-align: center;
+    
+}
+
+
+/* Responsive Navigation Bar */
+
+/* Navigation Bar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color:#0b131c;
+}
+
+.navbar h1 {
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ccc;
+}
+
+/* Responsive Design for Desktop */
+@media (min-width: 1024px) {
+    .navbar {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+/* Dark Mode - Matches Your Existing Styles */
+body.dark-mode .navbar {
+    background-color: #0b131c;
+}
+
+body.dark-mode .nav-links a {
+    color: #e0e0e0;
+}
+
+body.dark-mode .nav-links a:hover {
+    color: #aaa;
+}
+
+/* HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH */
+
+#flexbar {
+    padding: 24px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 40px;
+    opacity: 0.8;
+    transform: translateX(-290px);
+   
+}
+
+.nav-links{
+    align-items: start;
+}
+
+
+#flexbar:hover{
+    align-items: center;
+    padding:25px;
+    border-style:solid;
+    border-width:0.5px;
+    border-radius:40px;
+}
+
+#navid{
+    margin:0px;
+    width:100%;
+    height:130px;
+    position: fixed;
+}
+
+.logo{
+
+    width:200px;
+    height:100px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    opacity: 0.8;
+    border-color:white;
+
+}
+
+.logo:hover{
+
+    width:200px;
+    height:100px;
+    border-style: solid;
+    border-width: 2.5px;
+    border-radius: 20px;
+    opacity: 0.8;
+    border-color:white;
+    padding:1px;
+    box-shadow:0px 0px 0px 1px rgb(255,255,255,0.6);
+
+}
+
+
+
+.navbar{
+    height:80px;
+    margin-right: 50px;
+}
+
+
+/* Animated Cards */
+
+/* SAST Overview Section */
+#about {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 180px;
+    
+
+}
+
+body.dark-mode #about{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 180px;
+    
+    
+} 
+
+.sast-card {
+    text-align: center;
+    background: #ffffff;
+    padding: 4rem;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    transform: translateY(60px);
+}
+
+.sast-card:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.sast-icon {
+    font-size: 60px; /* Adjust icon size */
+    color: #1e2a38; /* Icon color */
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.sast-card:hover .sast-icon {
+    transform: scale(1.1);
+}
+
+.sast-card h3 {
+    font-size: 1.5rem;
+    color: #1e2a38;
+    margin-bottom: 0.5rem;
+}
+
+.sast-card p {
+    font-size: 1rem;
+    color: #666666;
+}
+
+#theme-toggle {
+    width:50px;
+    height:50px;
+    position: absolute;
+    right: 70px; /* Adjust distance from the right edge */
+    top: 50%;
+    transform: translateY(-50%); /* Centers vertically within header */
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 50%;
+    
+}
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh Carousel */
+
+/* #events-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    max-width: 100%; 
+    margin: 0 auto;
+    position: relative;
+} */
+
+/* Events Container */
+/* #events-container {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%; 
+} */
+
+/* Event Card */
+/* .event-card {
+    min-width: 100%;
+    flex: 0 0 100%;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin: 0 10px;
+    border-radius: 8px;
+    text-align: center;
+} */
+
+/* Navigation Buttons */
+/* #prev-button, #next-button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #1e2a38;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+} */
+
+/* #prev-button {
+    left: 10px;
+}
+
+#next-button {
+    right: 10px;
+} */
+
+
+
+
+body.dark-mode #contact{
+    background-color: #0b131c;
+}
+
+
+#breaker{
+    width: 100%;
+    height:200px;
+}
+
+
+#events {
+    padding: 3rem;
+    background-color: #0b131c; /* Deep space background color */
+    text-align: center;
+    color: #ffffff; /* White text color */
+    opacity: 95%;
+  }
+  
+  .space-title {
+    font-size: 2em;
+    color: #ffffff; /* Pure white for contrast */
+    margin-bottom: 1rem; /* Space below the title */
+  }
+  
+  #events-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem; /* Spacing between each card */
+    opacity: 0.9;
+  }
+  
+  .carousel-slide {
+    opacity: 0; /* Start hidden for entry animation */
+    transition: opacity 0.8s ease, transform 0.8s ease; /* Slower entry/exit duration */
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 10px; /* Sharper edges for cards */
+    background: linear-gradient(135deg, #0d1624, #1a2535); /* Gradient based on #0b131c */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7), 0 0 10px rgba(255, 255, 255, 0.1); /* Subtle white glow */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Animated light border on edges of the card */
+  .carousel-slide::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    padding: 2px;
+    background: linear-gradient(90deg, 
+      rgba(255, 255, 255, 0) 0%, 
+      rgba(255, 255, 255, 0.5) 50%, 
+      rgba(255, 255, 255, 0) 100%); /* Shimmering light effect */
+    background-size: 200% 200%;
+    animation: flowing-light 3s linear infinite; /* Infinite flowing animation */
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  @keyframes flowing-light {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 200% 50%;
+    }
+  }
+  
+  /* Image border with flowing light effect */
+  .carousel-background {
+    width: 40%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 1.5rem;
+    background-clip: content-box;
+    position: relative;
+    height:300px;
+  }
+  
+  .carousel-background::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 8px;
+    padding: 2px;
+    background: linear-gradient(90deg, 
+      rgba(255, 255, 255, 0) 0%, 
+      rgba(255, 255, 255, 0.5) 50%, 
+      rgba(255, 255, 255, 0) 100%); /* Same shimmering light effect as card */
+    background-size: 200% 200%;
+    animation: flowing-light 3s linear infinite; /* Same animation for consistency */
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  .card.left {
+    transform: translateX(-100px); /* Start from the left for entry */
+  }
+  
+  .card.right {
+    transform: translateX(100px); /* Start from the right for entry */
+  }
+  
+  .carousel-slide.in-view.left {
+    transform: translateX(0); /* Slide in from left */
+    opacity: 1;
+  }
+  
+  .carousel-slide.in-view.right {
+    transform: translateX(0); /* Slide in from right */
+    opacity: 1;
+  }
+  
+  .carousel-content {
+    position: relative;
+    z-index: 2; /* Ensure content is above the animated border */
+    padding: 1rem;
+    color: #ffffff; /* White for high contrast on dark background */
+    text-align: left;
+  }
+  
+  .carousel-title {
+    font-size: 1.6em;
+    color: #e0e0e0; /* Light gray for contrast */
+    margin-bottom: 0.5rem;
+  }
+  
+  .carousel-description {
+    font-size: 1em;
+    color: #b0b0b0; /* Subtle gray for a soft contrast */
+  }
+  
+  .rocket-cursor img {
+    width: 200px; /* Adjust this to make the rocket larger */
+    height: auto; /* Keeps the aspect ratio */
+}
+
+  
+
+
+
+
+   
+  
+  
+
+
+
+
+
+
+
+
+

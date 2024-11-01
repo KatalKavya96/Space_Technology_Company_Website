@@ -1,0 +1,12 @@
+/* Rocket cursor styling */
+.rocket-cursor {
+    position: absolute;
+    pointer-events: none; /* Allows clicking on elements beneath the rocket */
+    transform: translate(-50%, -50%); /* Center the rocket on the cursor */
+    z-index: 1000; /* Ensures the rocket appears above other content */
+}
+
+.rocket-cursor img {
+    width: 50px; /* Adjust the size of the rocket as needed */
+    height: auto;
+}
